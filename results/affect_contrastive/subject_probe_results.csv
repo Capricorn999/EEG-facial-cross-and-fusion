@@ -1,0 +1,17 @@
+task,model,representation,subject_top1,subject_top5,subject_macro_f1,note
+valence,Raw EEG,Raw EEG,0.2237960339943343,0.5580736543909348,0.2040951222839767,57 analyzable subjects; within-subject trial split
+arousal,Raw EEG,Raw EEG,0.2237960339943343,0.5580736543909348,0.2040951222839767,57 analyzable subjects; within-subject trial split
+valence,Raw face,Raw face,0.6621160409556314,0.8839590443686007,0.6326175771106936,47 analyzable subjects; within-subject trial split
+arousal,Raw face,Raw face,0.6621160409556314,0.8839590443686007,0.6326175771106936,47 analyzable subjects; within-subject trial split
+valence,Early fusion,Early fusion,0.6186440677966102,0.885593220338983,0.5997065594252294,46 analyzable subjects; within-subject trial split
+arousal,Early fusion,Early fusion,0.6186440677966102,0.885593220338983,0.5997065594252294,46 analyzable subjects; within-subject trial split
+valence,CCA shared latent,CCA shared latent,0.4110169491525424,0.7542372881355932,0.3630981653141432,global unsupervised CCA transform; exploratory probe
+arousal,CCA shared latent,CCA shared latent,0.4110169491525424,0.7542372881355932,0.3630981653141432,global unsupervised CCA transform; exploratory probe
+valence,CCA concat latent,CCA concat latent,0.4449152542372881,0.7711864406779662,0.3928667832743078,global unsupervised CCA transform; exploratory probe
+arousal,CCA concat latent,CCA concat latent,0.4449152542372881,0.7711864406779662,0.3928667832743078,global unsupervised CCA transform; exploratory probe
+valence,M0,shared,0.2711864406779661,0.6398305084745762,0.1593971701557294,global encoder trained with held-out validation subjects; frozen probe
+valence,M1,shared,0.2457627118644068,0.6059322033898306,0.1469320927969321,global encoder trained with held-out validation subjects; frozen probe
+valence,M2,shared,0.2584745762711864,0.5805084745762712,0.1639672294517876,global encoder trained with held-out validation subjects; frozen probe
+arousal,M0,shared,0.3008474576271186,0.614406779661017,0.1851533378353946,global encoder trained with held-out validation subjects; frozen probe
+arousal,M1,shared,0.2372881355932203,0.6313559322033898,0.143704124125007,global encoder trained with held-out validation subjects; frozen probe
+arousal,M2,shared,0.2584745762711864,0.5635593220338984,0.1530742726298992,global encoder trained with held-out validation subjects; frozen probe
