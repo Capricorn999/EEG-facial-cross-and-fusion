@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "synthetic_audit": {
+    "positive_anchors": 8,
+    "positive_valid": true,
+    "positive_distance_mean": 0.0,
+    "positive_distance_min": 0,
+    "positive_distance_max": 0,
+    "cross_negative_anchors": 8,
+    "cross_negative_valid": true,
+    "cross_negative_distance_mean": 4.125,
+    "cross_negative_distance_min": 3,
+    "cross_negative_distance_max": 6,
+    "hard_negative_anchors": 8,
+    "hard_negative_valid": true,
+    "hard_negative_distance_mean": 4.125,
+    "hard_negative_distance_min": 3,
+    "hard_negative_distance_max": 6,
+    "anchors_without_positive": 0.0,
+    "anchors_without_cross_negative": 0.0,
+    "anchors_without_hard_negative": 0.0,
+    "synthetic_cross_negative_loss": 0.04815327748656273,
+    "synthetic_hard_negative_loss": 0.061357058584690094
+  }
+}

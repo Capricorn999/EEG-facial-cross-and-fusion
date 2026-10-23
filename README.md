@@ -13,19 +13,21 @@ published analysis protocol and results.
 
 - Generic CCA alignment did not provide a statistically supported improvement
   over early fusion while retaining substantial subject information.
-- Affect-aware cross-subject contrastive positives modestly reduced subject-ID
-  probe accuracy, but did not achieve the required affect geometry or improve
-  LOSO recognition. The project therefore stops before adversarial learning.
+- A corrected affect-aware contrastive campaign fixed a defect that had made
+  M1 and M2's far-rating negatives impossible. The repaired objectives still
+  did not improve unseen-subject affect geometry or LOSO recognition; this
+  branch therefore stops before adversarial learning.
 
-See `reports/preliminary_report.md` and
-`reports/affect_contrastive_report.md` for complete evidence-bound conclusions.
+See `reports/preliminary_report.md`, `reports/affect_contrastive_report.md`,
+and `reports/affect_contrastive_v2_report.md` for complete evidence-bound
+conclusions.
 
 ## Reproduce
 
 Install `requirements.txt`, make the ASCERTAIN feature directory available,
 then run the dataset audit and the evaluation scripts in `src/evaluation/`.
-The affect-aware follow-up plan, locked hyperparameters, and stop rule are in
-`experiments/affect_contrastive/PLAN.md`.
+The corrected campaign plan, diagnostics, and outputs are in
+`experiments/affect_contrastive_v2/` and `results/affect_contrastive_v2/`.
 
 All LOSO preprocessing, validation-subject selection, and pair construction
 are fold-local. Original pilot outputs remain immutable; follow-up outputs live

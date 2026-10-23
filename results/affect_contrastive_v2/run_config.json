@@ -1,0 +1,8 @@
+{
+  "seeds": "3407,2027,911",
+  "models": "CE,M0,M1,M2",
+  "weighted_ce": false,
+  "full_batch": true,
+  "pair_rating": "original valence/arousal",
+  "classification_label": "*_fixed"
+}

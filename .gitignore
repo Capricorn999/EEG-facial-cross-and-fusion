@@ -3,3 +3,7 @@ __pycache__/
 *.log
 data/cache/
 results/affect_contrastive/oof_embeddings*.json
+# The primary v2 OOF embeddings are versioned; these are duplicated diagnostic
+# intermediates from the class-weighted and one-fold gradient smoke runs.
+results/affect_contrastive_v2/weighted_ce/oof_embeddings.json
+results/affect_contrastive_v2/gradient_smoke/oof_embeddings.json
